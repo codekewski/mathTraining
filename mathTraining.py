@@ -32,4 +32,3 @@ else:
     print(result)
 
 storCmd()
-print('change')
