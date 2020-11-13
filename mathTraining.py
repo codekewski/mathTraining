@@ -4,10 +4,10 @@ def storCmd():
     if isinstance(result, (int,float,complex)):
         storCmd = str(input('Do you want to save this result y/n? ')) #Saves stuff to files
         if storCmd == 'y':
-            saveData = open('results.txt','a')
-            saveData.write(f"\n on {timestamp} you calculated: {numberOne} {opSymbol} {NummerZwei} with a result of {result}")
-            saveData.close()
-            print('Result successfully saved!')
+            with open('results.txt','a') as saveData:
+                saveData.write(f"\n on {timestamp} you calculated: {numberOne} {opSymbol} {NummerZwei} with a result of {result}")
+                saveData.close()
+                print('Result successfully saved!')
         else:
             print("your result is forever lost in the aether")
 
