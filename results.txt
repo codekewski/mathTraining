@@ -1,0 +1,3 @@
+
+ on Fri Nov 13 08:51:18 2020 you calculated: 3243 * -4938 with a result of -16013934
+ on Fri Nov 13 11:02:38 2020 you calculated: 4 / 5 with a result of 0.8
