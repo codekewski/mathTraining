@@ -6,7 +6,6 @@ def storCmd():
         if storCmd == 'y':
             with open('results.txt','a') as saveData:
                 saveData.write(f"\n on {timestamp} you calculated: {numberOne} {opSymbol} {NummerZwei} with a result of {result}")
-                saveData.close()
                 print('Result successfully saved!')
         else:
             print("your result is forever lost in the aether")
